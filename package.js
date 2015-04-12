@@ -1,5 +1,5 @@
 Package.describe({
-    name: 'warsamebashir:meteor-plyr',
+    name: 'bixin:meteor-plyr',
     summary: 'A simple, accessible HTML5 media player.',
     version: '0.0.1',
     git: 'https://github.com/warsamebashir/meteor-plyr'
