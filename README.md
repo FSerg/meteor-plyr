@@ -11,5 +11,5 @@ Sure, there are many other players out there but we wanted to keep things simple
 With Meteor 0.9 and above, install using:
 
 ```sh
-$ meteor add warsamebashir:meteor-plyr
+$ meteor add bixin:meteor-plyr
 ```

@@ -1,7 +1,7 @@
 Package.describe({
     name: 'bixin:meteor-plyr',
     summary: 'A simple, accessible HTML5 media player.',
-    version: '0.0.1',
+    version: '0.0.2',
     git: 'https://github.com/warsamebashir/meteor-plyr'
 });
 
@@ -10,8 +10,24 @@ Package.onUse(function(api) {
 
     api.use('jquery', 'client');
 
+    var path = Npm.require('path');
+    var assetPath = path.join('files/sprite/');
+
     api.addFiles('files/plyr.css', 'client');
     api.addFiles('files/plyr.js', 'client');
-    api.addFiles('files/sprite.svg', 'client');
+    var assetFiles = [
+        assetPath + 'icon-captions-off.svg',
+        assetPath + 'icon-captions-on.svg',
+        assetPath + 'icon-enter-fullscreen.svg',
+        assetPath + 'icon-exit-fullscreen.svg',
+        assetPath + 'icon-fast-forward.svg',
+        assetPath + 'icon-muted.svg',
+        assetPath + 'icon-pause.svg',
+        assetPath + 'icon-play.svg',
+        assetPath + 'icon-restart.svg',
+        assetPath + 'icon-rewind.svg',
+        assetPath + 'icon-volume.svg',
+    ];
+    api.add_files(assetFiles, 'client');
 
 });
