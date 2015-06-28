@@ -15,19 +15,20 @@ Package.onUse(function(api) {
 
     api.addFiles('files/plyr.css', 'client');
     api.addFiles('files/plyr.js', 'client');
-    var assetFiles = [
-        assetPath + 'icon-captions-off.svg',
-        assetPath + 'icon-captions-on.svg',
-        assetPath + 'icon-enter-fullscreen.svg',
-        assetPath + 'icon-exit-fullscreen.svg',
-        assetPath + 'icon-fast-forward.svg',
-        assetPath + 'icon-muted.svg',
-        assetPath + 'icon-pause.svg',
-        assetPath + 'icon-play.svg',
-        assetPath + 'icon-restart.svg',
-        assetPath + 'icon-rewind.svg',
-        assetPath + 'icon-volume.svg',
-    ];
-    api.add_files(assetFiles, 'client');
+    api.addFiles('sprite.svg', 'client');
+    //var assetFiles = [
+    //    assetPath + 'icon-captions-off.svg',
+    //    assetPath + 'icon-captions-on.svg',
+    //    assetPath + 'icon-enter-fullscreen.svg',
+    //    assetPath + 'icon-exit-fullscreen.svg',
+    //    assetPath + 'icon-fast-forward.svg',
+    //    assetPath + 'icon-muted.svg',
+    //    assetPath + 'icon-pause.svg',
+    //    assetPath + 'icon-play.svg',
+    //    assetPath + 'icon-restart.svg',
+    //    assetPath + 'icon-rewind.svg',
+    //    assetPath + 'icon-volume.svg'
+    //];
+    //api.add_files(assetFiles, 'client');
 
 });

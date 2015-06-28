@@ -1,4 +1,4 @@
 versions.json
 
 .build*
-.idea*
+.idea/*
