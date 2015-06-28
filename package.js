@@ -1,7 +1,7 @@
 Package.describe({
     name: 'bixin:meteor-plyr',
     summary: 'A simple, accessible HTML5 media player.',
-    version: '0.0.3',
+    version: '0.0.4',
     git: 'https://github.com/wbashir/meteor-plyr'
 });
 
